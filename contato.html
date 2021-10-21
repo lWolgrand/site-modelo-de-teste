@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Inner Peace</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1><img id="logo" src="./picproducts/justice.webp"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form>
+            <label for="nomesobre">Nome e Sobrenome</label>
+            <input type="text" id="nomesobre" class="input-padrao" required placeholder="Nome">
+ 
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="exemplo@.com">
+
+            <label for="cell">Telefone</label>
+            <input type="tel"  id="cell" class="input-padrao" required placeholder="(XX)-XXXXXXXXX)">            
+
+            <label for="msg">Mensagem</label>
+            <textarea name="" id="" cols="70" rows="10" id="msg" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como contatar?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">email</label>                
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>                
+
+                <label for="radio-wpp"><input type="radio" name="contato" value="wpp" id="radio-wpp">Wpp</label>                
+            </fieldset>
+
+            <fieldset>
+                <legend>Seleceione horário</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+
+            <label class="checkbox"><input type="checkbox"> emails?</label>
+
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> 
+                    <td>Segunda</td>
+                    <td>8 ~ 20</td>
+                </tr>
+                <tr> 
+                    <td>Quarta</td>
+                    <td>8 ~ 20</td>
+                </tr>
+                <tr> 
+                    <td>Sexta</td>
+                    <td>8 ~ 20</td>
+                </tr>
+                
+            </tbody>            
+        </table>
+
+    </main>
+
+    
+</body>
+</html>

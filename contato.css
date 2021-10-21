@@ -1,0 +1,170 @@
+#logo {
+    width: 15%;
+    height: 300px;
+    opacity: 0.65;
+}
+
+header {
+        background: #BBBBBB;
+}
+
+/* .caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+} */
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 200px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 25px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.produtos {
+    width: 1500px ;
+    margin: 0 auto;
+    padding:50px 0 ;
+    
+
+}
+
+nav a:hover {
+    color: gray;
+    text-decoration: underline ;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;    
+    /* background-color: #cccccc; */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* border-color: ;
+    border-width: ;
+    border-style: ; */
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+}
+
+.produtos li:hover {
+    border-color: blue;
+    
+}
+.produtos li:active{
+    border-color: red;
+}
+
+.produtos li:hover h2 {
+    font-size: 45px;
+}
+
+.produtos h2 {
+    font-size:30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 22px;    
+}
+
+.produto-preco {
+     font-size: 22px;
+     font-weight: bold;
+     margin: 10px;
+}
+
+footer {
+     text-align: center;
+     background:url("f2.jpg");     
+     background-repeat: no-repeat;
+     padding: 40px 0;
+
+}
+
+.copy {
+     color:#FFFFFF;
+     font-size: 13px;
+     margin: 20px 0 0;
+}
+
+main {
+     width: 940px;
+     margin: 0 auto;
+}
+
+form {
+     margin: 40px 0;
+
+}
+
+form label, form legend {
+     display: block;
+     font-size: 20px;
+     margin: 0 0 10px;   
+}
+
+.input-padrao {
+     display: block;
+     margin: 0 0 20px;
+     padding: 10px 15px;
+     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 1s all;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: blue;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: yellow;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px, solid #000000;
+    padding: 8px 15px;
+}
+
+
